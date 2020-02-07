@@ -1,0 +1,3069 @@
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Entities>
+    <Entity>
+      <Name LocalizedName="Project" OriginalName="Project">cr97b_Project</Name>
+      <EntityInfo>
+        <entity Name="cr97b_Project">
+          <LocalizedNames>
+            <LocalizedName description="Project" languagecode="1033" />
+          </LocalizedNames>
+          <LocalizedCollectionNames>
+            <LocalizedCollectionName description="Projects" languagecode="1033" />
+          </LocalizedCollectionNames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+          <attributes>
+            <attribute PhysicalName="cr97b_Contract">
+              <Type>lookup</Type>
+              <Name>cr97b_contract</Name>
+              <LogicalName>cr97b_contract</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ValidForUpdateApi>1</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>1</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.1</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <LookupStyle>single</LookupStyle>
+              <LookupTypes />
+              <displaynames>
+                <displayname description="Contract" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="" languagecode="1033" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="cr97b_Description">
+              <Type>nvarchar</Type>
+              <Name>cr97b_description</Name>
+              <LogicalName>cr97b_description</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>1</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>1</IsCustomField>
+              <IsAuditEnabled>1</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <Format>text</Format>
+              <MaxLength>100</MaxLength>
+              <Length>200</Length>
+              <displaynames>
+                <displayname description="Description" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="" languagecode="1033" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="cr97b_ProjectCode">
+              <Type>nvarchar</Type>
+              <Name>cr97b_projectcode</Name>
+              <LogicalName>cr97b_projectcode</LogicalName>
+              <RequiredLevel>required</RequiredLevel>
+              <DisplayMask>PrimaryName|ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForForm</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>1</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>1</IsCustomField>
+              <IsAuditEnabled>1</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>1</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>1</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <Format>text</Format>
+              <MaxLength>100</MaxLength>
+              <Length>200</Length>
+              <displaynames>
+                <displayname description="Project-Code" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Required name field" languagecode="1033" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="cr97b_ProjectId">
+              <Type>primarykey</Type>
+              <Name>cr97b_projectid</Name>
+              <LogicalName>cr97b_projectid</LogicalName>
+              <RequiredLevel>systemrequired</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|RequiredForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>0</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>1</IsFilterable>
+              <IsRetrievable>1</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <displaynames>
+                <displayname description="Project" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Unique identifier for entity instances" languagecode="1033" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="cr97b_ProjectName">
+              <Type>nvarchar</Type>
+              <Name>cr97b_projectname</Name>
+              <LogicalName>cr97b_projectname</LogicalName>
+              <RequiredLevel>required</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>1</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>1</IsCustomField>
+              <IsAuditEnabled>1</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <Format>text</Format>
+              <MaxLength>100</MaxLength>
+              <Length>200</Length>
+              <displaynames>
+                <displayname description="Project Name" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Project Name for tracking and invoicing" languagecode="1033" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="CreatedBy">
+              <Type>lookup</Type>
+              <Name>createdby</Name>
+              <LogicalName>createdby</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForReadApi>1</ValidForReadApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <LookupStyle>single</LookupStyle>
+              <LookupTypes />
+              <displaynames>
+                <displayname description="Created By" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Unique identifier of the user who created the record." languagecode="1033" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="CreatedOn">
+              <Type>datetime</Type>
+              <Name>createdon</Name>
+              <LogicalName>createdon</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>inactive</ImeMode>
+              <ValidForReadApi>1</ValidForReadApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>1</IsFilterable>
+              <IsRetrievable>1</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <Format>datetime</Format>
+              <CanChangeDateTimeBehavior>0</CanChangeDateTimeBehavior>
+              <Behavior>1</Behavior>
+              <displaynames>
+                <displayname description="Created On" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Date and time when the record was created." languagecode="1033" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="CreatedOnBehalfBy">
+              <Type>lookup</Type>
+              <Name>createdonbehalfby</Name>
+              <LogicalName>createdonbehalfby</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForReadApi>1</ValidForReadApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <LookupStyle>single</LookupStyle>
+              <LookupTypes />
+              <displaynames>
+                <displayname description="Created By (Delegate)" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Unique identifier of the delegate user who created the record." languagecode="1033" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="ImportSequenceNumber">
+              <Type>int</Type>
+              <Name>importsequencenumber</Name>
+              <LogicalName>importsequencenumber</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind</DisplayMask>
+              <ImeMode>disabled</ImeMode>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>1</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <Format></Format>
+              <MinValue>-2147483648</MinValue>
+              <MaxValue>2147483647</MaxValue>
+              <displaynames>
+                <displayname description="Import Sequence Number" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Sequence number of the import that created this record." languagecode="1033" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="ModifiedBy">
+              <Type>lookup</Type>
+              <Name>modifiedby</Name>
+              <LogicalName>modifiedby</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForReadApi>1</ValidForReadApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <LookupStyle>single</LookupStyle>
+              <LookupTypes />
+              <displaynames>
+                <displayname description="Modified By" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Unique identifier of the user who modified the record." languagecode="1033" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="ModifiedOn">
+              <Type>datetime</Type>
+              <Name>modifiedon</Name>
+              <LogicalName>modifiedon</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>inactive</ImeMode>
+              <ValidForReadApi>1</ValidForReadApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>1</IsFilterable>
+              <IsRetrievable>1</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <Format>datetime</Format>
+              <CanChangeDateTimeBehavior>0</CanChangeDateTimeBehavior>
+              <Behavior>1</Behavior>
+              <displaynames>
+                <displayname description="Modified On" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Date and time when the record was modified." languagecode="1033" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="ModifiedOnBehalfBy">
+              <Type>lookup</Type>
+              <Name>modifiedonbehalfby</Name>
+              <LogicalName>modifiedonbehalfby</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForReadApi>1</ValidForReadApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <LookupStyle>single</LookupStyle>
+              <LookupTypes />
+              <displaynames>
+                <displayname description="Modified By (Delegate)" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Unique identifier of the delegate user who modified the record." languagecode="1033" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="OverriddenCreatedOn">
+              <Type>datetime</Type>
+              <Name>overriddencreatedon</Name>
+              <LogicalName>overriddencreatedon</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForGrid</DisplayMask>
+              <ImeMode>inactive</ImeMode>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>1</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <Format>date</Format>
+              <CanChangeDateTimeBehavior>0</CanChangeDateTimeBehavior>
+              <Behavior>1</Behavior>
+              <displaynames>
+                <displayname description="Record Created On" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Date and time that the record was migrated." languagecode="1033" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="OwnerId">
+              <Type>owner</Type>
+              <Name>ownerid</Name>
+              <LogicalName>ownerid</LogicalName>
+              <RequiredLevel>systemrequired</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForForm</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>1</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>1</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>1</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <LookupStyle>single</LookupStyle>
+              <LookupTypes>
+                <LookupType id="00000000-0000-0000-0000-000000000000">8</LookupType>
+                <LookupType id="00000000-0000-0000-0000-000000000000">9</LookupType>
+              </LookupTypes>
+              <displaynames>
+                <displayname description="Owner" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Owner Id" languagecode="1033" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="OwningBusinessUnit">
+              <Type>lookup</Type>
+              <Name>owningbusinessunit</Name>
+              <LogicalName>owningbusinessunit</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <ImeMode>auto</ImeMode>
+              <ValidForReadApi>1</ValidForReadApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>1</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <LookupStyle>single</LookupStyle>
+              <LookupTypes />
+              <displaynames>
+                <displayname description="Owning Business Unit" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Unique identifier for the business unit that owns the record" languagecode="1033" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="OwningTeam">
+              <Type>lookup</Type>
+              <Name>owningteam</Name>
+              <LogicalName>owningteam</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <ImeMode>auto</ImeMode>
+              <ValidForReadApi>1</ValidForReadApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsLogical>1</IsLogical>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <LookupStyle>single</LookupStyle>
+              <LookupTypes />
+              <displaynames>
+                <displayname description="Owning Team" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Unique identifier for the team that owns the record." languagecode="1033" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="OwningUser">
+              <Type>lookup</Type>
+              <Name>owninguser</Name>
+              <LogicalName>owninguser</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <ImeMode>auto</ImeMode>
+              <ValidForReadApi>1</ValidForReadApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsLogical>1</IsLogical>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <LookupStyle>single</LookupStyle>
+              <LookupTypes />
+              <displaynames>
+                <displayname description="Owning User" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Unique identifier for the user that owns the record." languagecode="1033" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="statecode">
+              <Type>state</Type>
+              <Name>statecode</Name>
+              <LogicalName>statecode</LogicalName>
+              <RequiredLevel>systemrequired</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>1</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>1</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>1</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <optionset Name="cr97b_project_statecode">
+                <OptionSetType>state</OptionSetType>
+                <IntroducedVersion>1.0.0.0</IntroducedVersion>
+                <IsCustomizable>1</IsCustomizable>
+                <displaynames>
+                  <displayname description="Status" languagecode="1033" />
+                </displaynames>
+                <Descriptions>
+                  <Description description="Status of the Project" languagecode="1033" />
+                </Descriptions>
+                <states>
+                  <state value="0" defaultstatus="1" invariantname="Active">
+                    <labels>
+                      <label description="Active" languagecode="1033" />
+                    </labels>
+                  </state>
+                  <state value="1" defaultstatus="2" invariantname="Inactive">
+                    <labels>
+                      <label description="Inactive" languagecode="1033" />
+                    </labels>
+                  </state>
+                </states>
+              </optionset>
+              <displaynames>
+                <displayname description="Status" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Status of the Project" languagecode="1033" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="statuscode">
+              <Type>status</Type>
+              <Name>statuscode</Name>
+              <LogicalName>statuscode</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>1</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>1</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <optionset Name="cr97b_project_statuscode">
+                <OptionSetType>status</OptionSetType>
+                <IntroducedVersion>1.0.0.0</IntroducedVersion>
+                <IsCustomizable>1</IsCustomizable>
+                <displaynames>
+                  <displayname description="Status Reason" languagecode="1033" />
+                </displaynames>
+                <Descriptions>
+                  <Description description="Reason for the status of the Project" languagecode="1033" />
+                </Descriptions>
+                <statuses>
+                  <status value="1" state="0">
+                    <labels>
+                      <label description="Active" languagecode="1033" />
+                    </labels>
+                  </status>
+                  <status value="2" state="1">
+                    <labels>
+                      <label description="Inactive" languagecode="1033" />
+                    </labels>
+                  </status>
+                </statuses>
+              </optionset>
+              <displaynames>
+                <displayname description="Status Reason" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Reason for the status of the Project" languagecode="1033" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="TimeZoneRuleVersionNumber">
+              <Type>int</Type>
+              <Name>timezoneruleversionnumber</Name>
+              <LogicalName>timezoneruleversionnumber</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>1</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <Format></Format>
+              <MinValue>-1</MinValue>
+              <MaxValue>2147483647</MaxValue>
+              <displaynames>
+                <displayname description="Time Zone Rule Version Number" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="For internal use only." languagecode="1033" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="UTCConversionTimeZoneCode">
+              <Type>int</Type>
+              <Name>utcconversiontimezonecode</Name>
+              <LogicalName>utcconversiontimezonecode</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>1</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <Format></Format>
+              <MinValue>-1</MinValue>
+              <MaxValue>2147483647</MaxValue>
+              <displaynames>
+                <displayname description="UTC Conversion Time Zone Code" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="Time zone code that was in use when the record was created." languagecode="1033" />
+              </Descriptions>
+            </attribute>
+          </attributes>
+          <EntitySetName>cr97b_projects</EntitySetName>
+          <IsDuplicateCheckSupported>1</IsDuplicateCheckSupported>
+          <IsBusinessProcessEnabled>0</IsBusinessProcessEnabled>
+          <IsRequiredOffline>0</IsRequiredOffline>
+          <IsInteractionCentricEnabled>0</IsInteractionCentricEnabled>
+          <IsCollaboration>0</IsCollaboration>
+          <AutoRouteToOwnerQueue>0</AutoRouteToOwnerQueue>
+          <IsConnectionsEnabled>0</IsConnectionsEnabled>
+          <IsDocumentManagementEnabled>0</IsDocumentManagementEnabled>
+          <IsOneNoteIntegrationEnabled>0</IsOneNoteIntegrationEnabled>
+          <IsKnowledgeManagementEnabled>0</IsKnowledgeManagementEnabled>
+          <IsSLAEnabled>0</IsSLAEnabled>
+          <IsDocumentRecommendationsEnabled>0</IsDocumentRecommendationsEnabled>
+          <IsBPFEntity>0</IsBPFEntity>
+          <OwnershipTypeMask>UserOwned</OwnershipTypeMask>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsRetrieveAuditEnabled>0</IsRetrieveAuditEnabled>
+          <IsRetrieveMultipleAuditEnabled>0</IsRetrieveMultipleAuditEnabled>
+          <IsActivity>0</IsActivity>
+          <ActivityTypeMask>CommunicationActivity</ActivityTypeMask>
+          <IsActivityParty>0</IsActivityParty>
+          <IsReplicated>0</IsReplicated>
+          <IsReplicationUserFiltered>0</IsReplicationUserFiltered>
+          <IsMailMergeEnabled>1</IsMailMergeEnabled>
+          <IsVisibleInMobile>0</IsVisibleInMobile>
+          <IsVisibleInMobileClient>0</IsVisibleInMobileClient>
+          <IsReadOnlyInMobileClient>0</IsReadOnlyInMobileClient>
+          <IsOfflineInMobileClient>0</IsOfflineInMobileClient>
+          <DaysSinceRecordLastModified>0</DaysSinceRecordLastModified>
+          <MobileOfflineFilters></MobileOfflineFilters>
+          <IsMapiGridEnabled>1</IsMapiGridEnabled>
+          <IsReadingPaneEnabled>1</IsReadingPaneEnabled>
+          <IsQuickCreateEnabled>0</IsQuickCreateEnabled>
+          <SyncToExternalSearchIndex>0</SyncToExternalSearchIndex>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <IsMappable>1</IsMappable>
+          <CanModifyAuditSettings>1</CanModifyAuditSettings>
+          <CanModifyMobileVisibility>1</CanModifyMobileVisibility>
+          <CanModifyMobileClientVisibility>1</CanModifyMobileClientVisibility>
+          <CanModifyMobileClientReadOnly>1</CanModifyMobileClientReadOnly>
+          <CanModifyMobileClientOffline>1</CanModifyMobileClientOffline>
+          <CanModifyConnectionSettings>1</CanModifyConnectionSettings>
+          <CanModifyDuplicateDetectionSettings>1</CanModifyDuplicateDetectionSettings>
+          <CanModifyMailMergeSettings>1</CanModifyMailMergeSettings>
+          <CanModifyQueueSettings>1</CanModifyQueueSettings>
+          <CanCreateAttributes>1</CanCreateAttributes>
+          <CanCreateForms>1</CanCreateForms>
+          <CanCreateCharts>1</CanCreateCharts>
+          <CanCreateViews>1</CanCreateViews>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <CanEnableSyncToExternalSearchIndex>1</CanEnableSyncToExternalSearchIndex>
+          <EnforceStateTransitions>0</EnforceStateTransitions>
+          <CanChangeHierarchicalRelationship>1</CanChangeHierarchicalRelationship>
+          <EntityHelpUrlEnabled>0</EntityHelpUrlEnabled>
+          <ChangeTrackingEnabled>0</ChangeTrackingEnabled>
+          <CanChangeTrackingBeEnabled>1</CanChangeTrackingBeEnabled>
+          <IsEnabledForExternalChannels>0</IsEnabledForExternalChannels>
+          <IsSolutionAware>0</IsSolutionAware>
+        </entity>
+      </EntityInfo>
+      <FormXml>
+        <forms type="card">
+          <systemform>
+            <formid>{fcfeba17-13bb-4419-8b73-130486150d83}</formid>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <FormPresentation>1</FormPresentation>
+            <FormActivationState>1</FormActivationState>
+            <form>
+              <tabs>
+                <tab name="general" verticallayout="true" id="{fdad9a3f-94f8-4e9e-a562-68b45c039f50}" IsUserDefined="0">
+                  <labels>
+                    <label description="" languagecode="1033" />
+                  </labels>
+                  <columns>
+                    <column width="25%">
+                      <sections>
+                        <section name="ColorStrip" showlabel="false" showbar="false" columns="1" IsUserDefined="0" id="{782090a3-1a8f-4514-a0ec-ea22fb912bc3}">
+                          <labels>
+                            <label description="ColorStrip" languagecode="1033" />
+                          </labels>
+                        </section>
+                      </sections>
+                    </column>
+                    <column width="75%">
+                      <sections>
+                        <section name="CardHeader" showlabel="false" showbar="false" columns="111" id="{624c9207-4af8-42e9-8900-9a09198a55f5}" IsUserDefined="0">
+                          <labels>
+                            <label description="Header" languagecode="1033" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{18989820-027a-4eab-9524-1a8ebcf818bf}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Status Reason" languagecode="1033" />
+                                </labels>
+                                <control id="statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="false" />
+                              </cell>
+                              <cell id="{9e7b5c8e-e746-43d4-8ce8-f91c02789e33}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="" languagecode="1033" />
+                                </labels>
+                              </cell>
+                              <cell id="{104a99b0-ca82-4f90-8a74-c52e6d8d5d12}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="" languagecode="1033" />
+                                </labels>
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                        <section name="CardDetails" showlabel="false" showbar="false" columns="1" id="{a345b3df-1c92-4ed3-9595-29baa0700b79}" IsUserDefined="0">
+                          <labels>
+                            <label description="Details" languagecode="1033" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{5a3713ec-0101-4c72-9a7e-ee27f201ac7e}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Project-Code" languagecode="1033" />
+                                </labels>
+                                <control id="cr97b_projectcode" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr97b_projectcode" disabled="false" />
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                        <section name="CardFooter" showlabel="false" columns="1111" showbar="false" id="{a8b5ea33-21ee-44d0-b378-330741a72377}" IsUserDefined="0">
+                          <labels>
+                            <label description="Footer" languagecode="1033" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{45c5a636-40ce-44bf-9fa4-c67e5c9f98ee}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Owner" languagecode="1033" />
+                                </labels>
+                                <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+                              </cell>
+                              <cell id="{2a03eada-91a4-4c17-8e1f-7320ccf81905}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Created On" languagecode="1033" />
+                                </labels>
+                                <control id="createdon" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdon" disabled="false" />
+                              </cell>
+                              <cell id="{72e3255c-3738-4957-bb4c-913a4a8494fe}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="" languagecode="1033" />
+                                </labels>
+                              </cell>
+                              <cell id="{7d09cf7e-188e-443e-b790-0581a6ee46f4}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="" languagecode="1033" />
+                                </labels>
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                  </columns>
+                </tab>
+              </tabs>
+            </form>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>1</CanBeDeleted>
+            <LocalizedNames>
+              <LocalizedName description="Information" languagecode="1033" />
+            </LocalizedNames>
+            <Descriptions>
+              <Description description="A card form for this entity." languagecode="1033" />
+            </Descriptions>
+          </systemform>
+        </forms>
+        <forms type="main">
+          <systemform>
+            <formid>{e023eaca-b557-499a-bd5f-c975fb1c5ff1}</formid>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <FormPresentation>1</FormPresentation>
+            <FormActivationState>1</FormActivationState>
+            <form headerdensity="HighWithControls">
+              <tabs>
+                <tab verticallayout="true" id="{4cbd2c19-be7b-444a-99ff-b68c1f0162b6}" IsUserDefined="1">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <columns>
+                    <column width="100%">
+                      <sections>
+                        <section showlabel="false" showbar="false" IsUserDefined="0" id="{6334c579-1f45-4664-ae59-cb98f76e52ca}">
+                          <labels>
+                            <label description="General" languagecode="1033" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{d1c179d4-e3ab-42be-850b-5e84237f6e92}">
+                                <labels>
+                                  <label description="Owner" languagecode="1033" />
+                                </labels>
+                                <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{c0151c4b-afa7-4ca7-b479-aec28e4c4c8b}">
+                                <labels>
+                                  <label description="Project-Code" languagecode="1033" />
+                                </labels>
+                                <control id="cr97b_projectcode" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr97b_projectcode" />
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{84383200-2d31-454a-9c68-1e00cc890a16}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Project Name" languagecode="1033" />
+                                </labels>
+                                <control id="cr97b_projectname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr97b_projectname" disabled="false" />
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{d5078ec3-3482-4ed4-a3a0-cfea551a8085}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Description" languagecode="1033" />
+                                </labels>
+                                <control id="cr97b_description" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr97b_description" disabled="false" />
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                  </columns>
+                </tab>
+              </tabs>
+              <header id="{9fd34028-fce8-4088-a3d2-413a0114b3d5}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+                <rows>
+                  <row>
+                    <cell id="{19d50001-9087-4b4b-80ef-30e8bf63a2e9}" showlabel="false">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                    </cell>
+                    <cell id="{52df92b8-6c96-4e84-8000-2e10eed62a3c}" showlabel="false">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                    </cell>
+                    <cell id="{d73b0ca3-7e40-43b5-b7b8-1c2707f59b71}" showlabel="false">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                    </cell>
+                  </row>
+                </rows>
+              </header>
+              <footer id="{e4182667-639d-4eb5-919e-4418097db044}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+                <rows>
+                  <row>
+                    <cell id="{7910b233-4575-4a79-88ee-cf86a6400ddb}" showlabel="false">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                    </cell>
+                    <cell id="{16ab3376-e05e-42bb-a3ed-7d3d7c3b516f}" showlabel="false">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                    </cell>
+                    <cell id="{adb4f0f8-27a0-41f8-b7db-b43713b568a3}" showlabel="false">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                    </cell>
+                  </row>
+                </rows>
+              </footer>
+              <DisplayConditions Order="0" FallbackForm="true" />
+            </form>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>1</CanBeDeleted>
+            <LocalizedNames>
+              <LocalizedName description="Information" languagecode="1033" />
+            </LocalizedNames>
+            <Descriptions>
+              <Description description="A form for this entity." languagecode="1033" />
+            </Descriptions>
+          </systemform>
+        </forms>
+        <forms type="quick">
+          <systemform>
+            <formid>{25d0276a-8dc2-407b-b6cc-7ea85c67c0ed}</formid>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <FormPresentation>1</FormPresentation>
+            <FormActivationState>1</FormActivationState>
+            <form>
+              <tabs>
+                <tab verticallayout="true" id="{6114c356-7168-4598-9354-51556be1ed07}" IsUserDefined="1">
+                  <labels>
+                    <label description="" languagecode="1033" />
+                  </labels>
+                  <columns>
+                    <column width="100%">
+                      <sections>
+                        <section showlabel="false" showbar="false" IsUserDefined="0" id="{3a3819e6-0f31-4ecd-bb28-4d273720e748}">
+                          <labels>
+                            <label description="GENERAL" languagecode="1033" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{8785bfd3-48c2-4bdf-8885-9acf07b81a41}">
+                                <labels>
+                                  <label description="Project-Code" languagecode="1033" />
+                                </labels>
+                                <control id="cr97b_projectcode" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr97b_projectcode" />
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{a831ff0a-e787-43ed-8133-4884455e4f38}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Project Name" languagecode="1033" />
+                                </labels>
+                                <control id="cr97b_projectname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr97b_projectname" disabled="false" />
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{630fae32-015a-4e7d-9346-661419d3f8fc}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Description" languagecode="1033" />
+                                </labels>
+                                <control id="cr97b_description" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr97b_description" disabled="false" />
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{9665e9db-337e-42f9-8c56-b3963b0829a4}">
+                                <labels>
+                                  <label description="Owner" languagecode="1033" />
+                                </labels>
+                                <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                  </columns>
+                </tab>
+              </tabs>
+              <DisplayConditions Order="0" FallbackForm="true" />
+            </form>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>1</CanBeDeleted>
+            <LocalizedNames>
+              <LocalizedName description="Information" languagecode="1033" />
+            </LocalizedNames>
+          </systemform>
+        </forms>
+      </FormXml>
+      <SavedQueries>
+        <savedqueries>
+          <savedquery>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>0</CanBeDeleted>
+            <isquickfindquery>0</isquickfindquery>
+            <isprivate>0</isprivate>
+            <isdefault>1</isdefault>
+            <savedqueryid>{417336af-e8e4-402e-8b68-4b984ab13edb}</savedqueryid>
+            <layoutxml>
+              <grid name="resultset" jump="cr97b_projectcode" select="1" icon="1" preview="1">
+                <row name="result" id="cr97b_projectid">
+                  <cell name="cr97b_projectcode" width="300" />
+                  <cell name="cr97b_projectname" width="300" />
+                </row>
+              </grid>
+            </layoutxml>
+            <querytype>0</querytype>
+            <fetchxml>
+              <fetch version="1.0" output-format="xml-platform" mapping="logical">
+                <entity name="cr97b_project">
+                  <attribute name="cr97b_projectid" />
+                  <attribute name="cr97b_projectcode" />
+                  <attribute name="cr97b_projectname" />
+                  <order attribute="cr97b_projectcode" descending="false" />
+                  <filter type="and">
+                    <condition attribute="statecode" operator="eq" value="0" />
+                  </filter>
+                </entity>
+              </fetch>
+            </fetchxml>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <LocalizedNames>
+              <LocalizedName description="Active Projects" languagecode="1033" />
+            </LocalizedNames>
+          </savedquery>
+          <savedquery>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>0</CanBeDeleted>
+            <isquickfindquery>0</isquickfindquery>
+            <isprivate>0</isprivate>
+            <isdefault>0</isdefault>
+            <savedqueryid>{9ca5fad9-a13a-4aea-8ce3-4b2e32cdc21f}</savedqueryid>
+            <layoutxml>
+              <grid name="resultset" jump="cr97b_projectcode" select="1" icon="1" preview="1">
+                <row name="result" id="cr97b_projectid">
+                  <cell name="cr97b_projectcode" width="300" />
+                  <cell name="cr97b_projectname" width="300" />
+                </row>
+              </grid>
+            </layoutxml>
+            <querytype>0</querytype>
+            <fetchxml>
+              <fetch version="1.0" output-format="xml-platform" mapping="logical">
+                <entity name="cr97b_project">
+                  <attribute name="cr97b_projectid" />
+                  <attribute name="cr97b_projectcode" />
+                  <attribute name="cr97b_projectname" />
+                  <order attribute="cr97b_projectcode" descending="false" />
+                  <filter type="and">
+                    <condition attribute="statecode" operator="eq" value="1" />
+                  </filter>
+                </entity>
+              </fetch>
+            </fetchxml>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <LocalizedNames>
+              <LocalizedName description="Inactive Projects" languagecode="1033" />
+            </LocalizedNames>
+          </savedquery>
+          <savedquery>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>1</CanBeDeleted>
+            <isquickfindquery>0</isquickfindquery>
+            <isprivate>0</isprivate>
+            <isdefault>1</isdefault>
+            <savedqueryid>{9e52de0d-9244-ea11-a812-000d3af427b4}</savedqueryid>
+            <querytype>8192</querytype>
+            <fetchxml>
+              <fetch version="1.0" mapping="logical" output-format="xml-platform">
+                <entity name="cr97b_project">
+                  <attribute name="cr97b_projectid" />
+                  <filter type="and">
+                    <condition attribute="statecode" operator="eq" value="0" />
+                    <condition attribute="ownerid" operator="eq-userid" />
+                  </filter>
+                </entity>
+              </fetch>
+            </fetchxml>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <LocalizedNames>
+              <LocalizedName description="My Projects" languagecode="1033" />
+            </LocalizedNames>
+            <Descriptions>
+              <Description description="Active Projects owned by me" languagecode="1033" />
+            </Descriptions>
+          </savedquery>
+          <savedquery>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>0</CanBeDeleted>
+            <isquickfindquery>0</isquickfindquery>
+            <isprivate>0</isprivate>
+            <isdefault>1</isdefault>
+            <savedqueryid>{04133adf-b69d-428c-a3c6-d7f356c94458}</savedqueryid>
+            <layoutxml>
+              <grid name="resultset" jump="cr97b_projectcode" select="1" icon="1" preview="1">
+                <row name="result" id="cr97b_projectid">
+                  <cell name="cr97b_projectcode" width="300" />
+                  <cell name="createdon" width="125" />
+                </row>
+              </grid>
+            </layoutxml>
+            <querytype>1</querytype>
+            <fetchxml>
+              <fetch version="1.0" mapping="logical">
+                <entity name="cr97b_project">
+                  <attribute name="cr97b_projectid" />
+                  <attribute name="cr97b_projectcode" />
+                  <attribute name="createdon" />
+                  <order attribute="cr97b_projectcode" descending="false" />
+                </entity>
+              </fetch>
+            </fetchxml>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <LocalizedNames>
+              <LocalizedName description="Project Advanced Find View" languagecode="1033" />
+            </LocalizedNames>
+          </savedquery>
+          <savedquery>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>0</CanBeDeleted>
+            <isquickfindquery>0</isquickfindquery>
+            <isprivate>0</isprivate>
+            <isdefault>1</isdefault>
+            <savedqueryid>{e89d2fba-025b-40c4-a108-316db6dd577e}</savedqueryid>
+            <layoutxml>
+              <grid name="cr97b_projects" jump="cr97b_projectcode" select="1" icon="1" preview="1">
+                <row name="cr97b_project" id="cr97b_projectid">
+                  <cell name="cr97b_projectcode" width="300" />
+                  <cell name="createdon" width="125" />
+                </row>
+              </grid>
+            </layoutxml>
+            <querytype>2</querytype>
+            <fetchxml>
+              <fetch version="1.0" mapping="logical">
+                <entity name="cr97b_project">
+                  <attribute name="cr97b_projectid" />
+                  <attribute name="cr97b_projectcode" />
+                  <attribute name="createdon" />
+                  <order attribute="cr97b_projectcode" descending="false" />
+                  <filter type="and">
+                    <condition attribute="statecode" operator="eq" value="0" />
+                  </filter>
+                </entity>
+              </fetch>
+            </fetchxml>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <LocalizedNames>
+              <LocalizedName description="Project Associated View" languagecode="1033" />
+            </LocalizedNames>
+          </savedquery>
+          <savedquery>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>0</CanBeDeleted>
+            <isquickfindquery>0</isquickfindquery>
+            <isprivate>0</isprivate>
+            <isdefault>1</isdefault>
+            <savedqueryid>{d1992795-117d-4afa-98a5-4a701cd271de}</savedqueryid>
+            <layoutxml>
+              <grid name="cr97b_projects" jump="cr97b_projectcode" select="1" icon="1" preview="0">
+                <row name="cr97b_project" id="cr97b_projectid">
+                  <cell name="cr97b_projectcode" width="200" />
+                  <cell name="cr97b_projectname" width="150" />
+                  <cell name="createdon" width="150" />
+                </row>
+              </grid>
+            </layoutxml>
+            <querytype>64</querytype>
+            <fetchxml>
+              <fetch version="1.0" output-format="xml-platform" mapping="logical">
+                <entity name="cr97b_project">
+                  <attribute name="cr97b_projectid" />
+                  <attribute name="cr97b_projectcode" />
+                  <attribute name="createdon" />
+                  <attribute name="cr97b_projectname" />
+                  <filter type="and">
+                    <condition attribute="statecode" operator="eq" value="0" />
+                  </filter>
+                </entity>
+              </fetch>
+            </fetchxml>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <LocalizedNames>
+              <LocalizedName description="Project Lookup View" languagecode="1033" />
+            </LocalizedNames>
+          </savedquery>
+          <savedquery>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>0</CanBeDeleted>
+            <isquickfindquery>1</isquickfindquery>
+            <isprivate>0</isprivate>
+            <isdefault>1</isdefault>
+            <savedqueryid>{b849d3a1-6204-4e36-9d26-337dc8e3e4e4}</savedqueryid>
+            <layoutxml>
+              <grid name="resultset" jump="cr97b_projectcode" select="1" icon="1" preview="1">
+                <row name="result" id="cr97b_projectid">
+                  <cell name="cr97b_projectcode" width="300" />
+                  <cell name="createdon" width="125" />
+                </row>
+              </grid>
+            </layoutxml>
+            <querytype>4</querytype>
+            <fetchxml>
+              <fetch version="1.0" mapping="logical">
+                <entity name="cr97b_project">
+                  <attribute name="cr97b_projectid" />
+                  <attribute name="cr97b_projectcode" />
+                  <attribute name="createdon" />
+                  <order attribute="cr97b_projectcode" descending="false" />
+                  <filter type="and">
+                    <condition attribute="statecode" operator="eq" value="0" />
+                  </filter>
+                  <filter type="or" isquickfindfields="1">
+                    <condition attribute="cr97b_projectcode" operator="like" value="{0}" />
+                  </filter>
+                </entity>
+              </fetch>
+            </fetchxml>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <LocalizedNames>
+              <LocalizedName description="Quick Find Active Projects" languagecode="1033" />
+            </LocalizedNames>
+          </savedquery>
+        </savedqueries>
+      </SavedQueries>
+      <RibbonDiffXml>
+        <CustomActions />
+        <Templates>
+          <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+        </Templates>
+        <CommandDefinitions />
+        <RuleDefinitions>
+          <TabDisplayRules />
+          <DisplayRules />
+          <EnableRules />
+        </RuleDefinitions>
+        <LocLabels />
+      </RibbonDiffXml>
+    </Entity>
+    <Entity>
+      <Name LocalizedName="Task" OriginalName="">Task</Name>
+      <EntityInfo>
+        <entity Name="Task">
+          <attributes>
+            <attribute PhysicalName="cr97b_Project">
+              <Type>lookup</Type>
+              <Name>cr97b_project</Name>
+              <LogicalName>cr97b_project</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ValidForUpdateApi>1</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>1</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0.0.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <LookupStyle>single</LookupStyle>
+              <LookupTypes />
+              <displaynames>
+                <displayname description="Project" languagecode="1033" />
+              </displaynames>
+              <Descriptions>
+                <Description description="" languagecode="1033" />
+              </Descriptions>
+            </attribute>
+          </attributes>
+          <EntitySetName>tasks</EntitySetName>
+          <IsDuplicateCheckSupported>1</IsDuplicateCheckSupported>
+          <IsBusinessProcessEnabled>1</IsBusinessProcessEnabled>
+          <IsRequiredOffline>0</IsRequiredOffline>
+          <IsInteractionCentricEnabled>1</IsInteractionCentricEnabled>
+          <IsCollaboration>1</IsCollaboration>
+          <AutoRouteToOwnerQueue>0</AutoRouteToOwnerQueue>
+          <IsConnectionsEnabled>1</IsConnectionsEnabled>
+          <IsDocumentManagementEnabled>0</IsDocumentManagementEnabled>
+          <IsOneNoteIntegrationEnabled>0</IsOneNoteIntegrationEnabled>
+          <IsKnowledgeManagementEnabled>0</IsKnowledgeManagementEnabled>
+          <IsSLAEnabled>0</IsSLAEnabled>
+          <IsDocumentRecommendationsEnabled>0</IsDocumentRecommendationsEnabled>
+          <IsBPFEntity>0</IsBPFEntity>
+          <OwnershipTypeMask>UserOwned</OwnershipTypeMask>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsRetrieveAuditEnabled>0</IsRetrieveAuditEnabled>
+          <IsRetrieveMultipleAuditEnabled>0</IsRetrieveMultipleAuditEnabled>
+          <IsActivity>1</IsActivity>
+          <ActivityTypeMask>CommunicationActivity</ActivityTypeMask>
+          <IsActivityParty>0</IsActivityParty>
+          <IsReplicated>1</IsReplicated>
+          <IsReplicationUserFiltered>1</IsReplicationUserFiltered>
+          <IsMailMergeEnabled>0</IsMailMergeEnabled>
+          <IsVisibleInMobile>1</IsVisibleInMobile>
+          <IsVisibleInMobileClient>1</IsVisibleInMobileClient>
+          <IsReadOnlyInMobileClient>0</IsReadOnlyInMobileClient>
+          <IsOfflineInMobileClient>1</IsOfflineInMobileClient>
+          <DaysSinceRecordLastModified>0</DaysSinceRecordLastModified>
+          <MobileOfflineFilters>
+		&lt;fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false"&gt;
+			&lt;entity name="task"&gt;
+				&lt;filter type="and"&gt;
+					&lt;condition attribute="modifiedon" operator="last-x-days" value="10"/&gt;
+				&lt;/filter&gt;
+			&lt;/entity&gt;
+		&lt;/fetch&gt;
+	</MobileOfflineFilters>
+          <IsMapiGridEnabled>0</IsMapiGridEnabled>
+          <IsReadingPaneEnabled>1</IsReadingPaneEnabled>
+          <IsQuickCreateEnabled>1</IsQuickCreateEnabled>
+          <SyncToExternalSearchIndex>1</SyncToExternalSearchIndex>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <EnforceStateTransitions>0</EnforceStateTransitions>
+          <EntityHelpUrlEnabled>0</EntityHelpUrlEnabled>
+          <ChangeTrackingEnabled>1</ChangeTrackingEnabled>
+          <IsEnabledForExternalChannels>0</IsEnabledForExternalChannels>
+          <IsSolutionAware>0</IsSolutionAware>
+          <HasRelatedNotes>True</HasRelatedNotes>
+        </entity>
+      </EntityInfo>
+      <FormXml>
+        <forms type="card">
+          <systemform unmodified="1">
+            <formid>{5e9725e4-5449-4363-8c1c-5ae71767af34}</formid>
+            <IntroducedVersion>8.0.0.0</IntroducedVersion>
+            <FormPresentation>1</FormPresentation>
+            <FormActivationState>1</FormActivationState>
+            <form>
+              <tabs>
+                <tab IsUserDefined="0" id="{166b72fb-91b0-4f53-b6d2-ca18d817abe0}">
+                  <labels>
+                    <label description="Task card" languagecode="1033" />
+                  </labels>
+                  <columns>
+                    <column width="25%">
+                      <sections>
+                        <section name="ColorStrip" showlabel="false" showbar="false" IsUserDefined="0" columns="1" id="{a7d2c56c-4d68-4441-8789-fdbc2e71b5db}">
+                          <labels>
+                            <label description="ColorStrip" languagecode="1033" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{5d51ca38-4d36-95ba-1618-0adbe2c63ce3}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Status Reason" languagecode="1033" />
+                                </labels>
+                                <control id="statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="false" />
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                    <column width="75%">
+                      <sections>
+                        <section name="CardHeader" showlabel="false" showbar="false" IsUserDefined="0" columns="111" id="{8c09804a-f77b-4e39-bb05-c7944cfaa645}">
+                          <labels>
+                            <label description="Header" languagecode="1033" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{d7d9ce8a-c64c-07b9-c622-244534e4eb80}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Priority" languagecode="1033" />
+                                </labels>
+                                <control id="prioritycode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="prioritycode" disabled="false" />
+                              </cell>
+                              <cell id="{5a6d286a-451c-8914-9990-2c2725eb5944}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Start Date" languagecode="1033" />
+                                </labels>
+                                <control id="scheduledstart" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="scheduledstart" disabled="false" />
+                              </cell>
+                              <cell id="{b81171eb-447d-870a-1e14-c5ca23ce6d60}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Duration" languagecode="1033" />
+                                </labels>
+                                <control id="actualdurationminutes" classid="{AA987274-CE4E-4271-A803-66164311A958}" datafieldname="actualdurationminutes" disabled="false" />
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                        <section name="CardDetails" showlabel="false" showbar="false" IsUserDefined="0" layout="varwidth" columns="1" id="{fef3166d-412e-470d-ba3a-ab9d8489e097}">
+                          <labels>
+                            <label description="Details" languagecode="1033" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{1a121c66-36e5-75d6-c730-52eac2e66252}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Subject" languagecode="1033" />
+                                </labels>
+                                <control id="subject" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="subject" disabled="false" />
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{0a70da12-1bde-564a-8d11-b2a650559905}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Description" languagecode="1033" />
+                                </labels>
+                                <control id="description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="description" disabled="false" />
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{2275e912-9722-cb59-0965-a84aa36980ac}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Regarding" languagecode="1033" />
+                                </labels>
+                                <control id="regardingobjectid" classid="{F3015350-44A2-4aa0-97B5-00166532B5E9}" datafieldname="regardingobjectid" disabled="false" />
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                        <section name="CardFooter" showlabel="false" showbar="false" IsUserDefined="0" columns="1111" id="{d020dbda-d566-44ee-9886-daf588ef26b9}">
+                          <labels>
+                            <label description="Footer" languagecode="1033" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{4a50ca4c-2d81-3eee-aa10-99254ab124c6}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Owner" languagecode="1033" />
+                                </labels>
+                                <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+                              </cell>
+                              <cell id="{98613428-0636-706e-1d04-d7c56eb4520e}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Created On" languagecode="1033" />
+                                </labels>
+                                <control id="createdon" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdon" disabled="false" />
+                              </cell>
+                              <cell id="{5ff8b53b-bedc-4a88-b725-78c7ef6be06d}" showlabel="false">
+                                <labels>
+                                  <label description="" languagecode="1033" />
+                                </labels>
+                              </cell>
+                              <cell id="{61eba990-dbbe-45f3-8b3e-63ac76c6bbd4}" showlabel="false">
+                                <labels>
+                                  <label description="" languagecode="1033" />
+                                </labels>
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                  </columns>
+                </tab>
+              </tabs>
+            </form>
+            <LocalizedNames>
+              <LocalizedName description="Task Card form" languagecode="1033" />
+            </LocalizedNames>
+            <Descriptions>
+              <Description description="Default Task card form." languagecode="1033" />
+            </Descriptions>
+          </systemform>
+        </forms>
+        <forms type="main">
+          <systemform>
+            <formid>{b62ce022-cc0f-4c8c-bb29-21948f70dc74}</formid>
+            <IntroducedVersion>5.0.0.0</IntroducedVersion>
+            <FormPresentation>0</FormPresentation>
+            <FormActivationState>0</FormActivationState>
+            <form headerdensity="HighWithControls">
+              <tabs>
+                <tab name="task" verticallayout="true" id="{e92df784-47af-48cf-a9cb-ee4811b87d10}" IsUserDefined="0">
+                  <labels>
+                    <label description="Task" languagecode="1033" />
+                  </labels>
+                  <columns>
+                    <column width="100%">
+                      <sections>
+                        <section name="task description" showlabel="true" showbar="false" locklevel="0" id="{ea054020-22ab-4178-aeb7-3d664d96f88c}" IsUserDefined="0" layout="varwidth" columns="11" height="auto">
+                          <labels>
+                            <label description="Task Description" languagecode="1033" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="2" id="{7bd07330-cc88-4056-acd1-dede64bcf1ca}">
+                                <labels>
+                                  <label description="Subject" languagecode="1033" />
+                                </labels>
+                                <control id="subject" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="subject" disabled="false" />
+                              </cell>
+                            </row>
+                            <row>
+                              <cell colspan="2" showlabel="true" rowspan="5" auto="true" id="{0fde8ba1-0edc-4953-b03d-51aca06cf83c}">
+                                <labels>
+                                  <label description="Description" languagecode="1033" />
+                                </labels>
+                                <control id="description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="description" />
+                              </cell>
+                            </row>
+                            <row />
+                            <row />
+                            <row />
+                            <row height="auto" />
+                          </rows>
+                        </section>
+                        <section name="task details" showlabel="false" showbar="false" locklevel="0" id="{E8A0A1AE-3F40-471e-B06E-B221779CA511}" IsUserDefined="0" layout="varwidth" columns="1">
+                          <labels>
+                            <label description="Task Details" languagecode="1033" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="1" id="{19816b9b-a8fc-4f92-818e-0a8c599f4107}">
+                                <labels>
+                                  <label description="Owner" languagecode="1033" />
+                                </labels>
+                                <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+                              </cell>
+                            </row>
+                            <row>
+                              <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="1" id="{4ad7b570-173d-4202-855d-0029ec5d40bc}">
+                                <labels>
+                                  <label description="Duration" languagecode="1033" />
+                                </labels>
+                                <control id="actualdurationminutes" classid="{AA987274-CE4E-4271-A803-66164311A958}" datafieldname="actualdurationminutes" disabled="false" />
+                              </cell>
+                            </row>
+                            <row>
+                              <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="1" id="{cadc5253-c482-41f3-bd19-da0bf50c3274}">
+                                <labels>
+                                  <label description="Due Date" languagecode="1033" />
+                                </labels>
+                                <control id="scheduledend" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="scheduledend" disabled="false" />
+                              </cell>
+                            </row>
+                            <row>
+                              <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="1" id="{61b62079-b04f-421a-997b-8b84164b54e7}" visible="true">
+                                <labels>
+                                  <label description="Project" languagecode="1033" />
+                                </labels>
+                                <control id="category" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="category" disabled="false" />
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                  </columns>
+                </tab>
+                <tab name="notes" id="{D87E07A3-11DA-4b8e-A8CC-F069EBC43FD4}" IsUserDefined="0" expanded="false">
+                  <labels>
+                    <label description="Notes" languagecode="1033" />
+                  </labels>
+                  <columns>
+                    <column width="100%">
+                      <sections>
+                        <section name="notes" showlabel="false" showbar="false" id="{81A8A668-2716-4129-846D-E663546EC4FE}" IsUserDefined="0" height="auto">
+                          <labels>
+                            <label description="Notes" languagecode="1033" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell colspan="2" showlabel="false" rowspan="5" auto="true" id="{169ed329-a2f4-43b6-8149-17df52f49381}">
+                                <labels>
+                                  <label description="Note Text" languagecode="1033" />
+                                </labels>
+                                <control id="notescontrol" classid="{06375649-C143-495E-A496-C962E5B4488E}" />
+                              </cell>
+                            </row>
+                            <row />
+                            <row />
+                            <row />
+                            <row height="auto" />
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                  </columns>
+                </tab>
+              </tabs>
+              <events>
+                <event name="onload" application="true" active="true">
+                  <InternalHandlers>
+                    <Handler functionName="Activities.Task.Form_onload" libraryName="Activities/SystemLibraries/Task_main_system_library.js" handlerUniqueId="516bea27-d455-43f4-968f-1e372977fc93" enabled="true" passExecutionContext="true" />
+                  </InternalHandlers>
+                </event>
+              </events>
+              <clientresources>
+                <internalresources>
+                  <clientincludes>
+                    <internaljscriptfile src="$webresource:Activities/SystemLibraries/Task_main_system_library.js" />
+                  </clientincludes>
+                </internalresources>
+              </clientresources>
+              <DisplayConditions FallbackForm="true" Order="2">
+                <Everyone />
+              </DisplayConditions>
+              <header id="{5fdf28bf-1faa-4710-b56e-0c12ffea9b32}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+                <rows></rows>
+              </header>
+              <footer id="{a78b53ed-b232-438a-b0d4-a9cade367780}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+                <rows></rows>
+              </footer>
+            </form>
+            <LocalizedNames>
+              <LocalizedName description="Timesheet Entry" languagecode="1033" />
+            </LocalizedNames>
+            <Descriptions>
+              <Description description="A form for this entity." languagecode="1033" />
+            </Descriptions>
+          </systemform>
+          <systemform unmodified="1">
+            <formid>{d5b4a1b2-de4f-4f86-8768-b0730001e7d1}</formid>
+            <IntroducedVersion>8.0.0.0</IntroducedVersion>
+            <FormPresentation>2</FormPresentation>
+            <FormActivationState>1</FormActivationState>
+            <form>
+              <tabs>
+                <tab name="tab_4" id="{61b229e0-729d-513a-1523-89c1cc1b827e}" IsUserDefined="0" locklevel="0" showlabel="false">
+                  <labels>
+                    <label description="TASK" languagecode="1033" />
+                  </labels>
+                  <columns>
+                    <column width="34%">
+                      <sections>
+                        <section name="tab_4_section_4" showlabel="true" showbar="false" locklevel="0" id="{7e07dc8c-49b7-a67d-5ba9-d2672d1173b2}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                          <labels>
+                            <label description="Regarding" languagecode="1033" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{d5147171-2bdd-dc29-aa3b-947a39bbbd80}" showlabel="false" locklevel="0" availableforphone="true">
+                                <labels>
+                                  <label description="Regarding" languagecode="1033" />
+                                </labels>
+                                <control id="regardingobjectid" classid="{F3015350-44A2-4aa0-97B5-00166532B5E9}" datafieldname="regardingobjectid" disabled="false">
+                                  <parameters>
+                                    <AutoResolve>true</AutoResolve>
+                                    <DisableMru>false</DisableMru>
+                                  </parameters>
+                                </control>
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                    <column width="66%">
+                      <sections>
+                        <section name="tab_4_section_2" showlabel="true" showbar="false" locklevel="0" id="{9a91405d-e2db-1857-4495-ea5d78148bdd}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                          <labels>
+                            <label description="DETAILS" languagecode="1033" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{6395043d-8406-b2d5-86be-975bd99ec5d2}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Subject" languagecode="1033" />
+                                </labels>
+                                <control id="subject" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="subject" disabled="false" />
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{c439d01d-3a5d-6c2c-c410-946329983dd3}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Duration" languagecode="1033" />
+                                </labels>
+                                <control id="actualdurationminutes" classid="{AA987274-CE4E-4271-A803-66164311A958}" datafieldname="actualdurationminutes" disabled="false" />
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{7023c046-0854-6b59-0706-dcebce62988a}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Regarding" languagecode="1033" />
+                                </labels>
+                                <control id="regardingobjectid" classid="{F3015350-44A2-4aa0-97B5-00166532B5E9}" datafieldname="regardingobjectid" disabled="false" />
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                        <section name="tab_3_section_3" showlabel="true" showbar="false" locklevel="0" id="{13eabb41-7239-6a92-d488-61d63d26d92a}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                          <labels>
+                            <label description="Description" languagecode="1033" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{63d45978-573b-13a7-7c31-095282400150}" showlabel="false" locklevel="0" availableforphone="true" rowspan="3">
+                                <labels>
+                                  <label description="Description" languagecode="1033" />
+                                </labels>
+                                <control id="description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="description" disabled="false" />
+                              </cell>
+                            </row>
+                            <row />
+                            <row />
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                  </columns>
+                </tab>
+              </tabs>
+              <header id="{893d8b8c-f4d8-4aad-9c05-17f1a474793b}" celllabelposition="Top" columns="1111" labelwidth="115">
+                <rows>
+                  <row>
+                    <cell id="{52dc6582-d696-0ea0-cce6-7eb1cc71c688}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Priority" languagecode="1033" />
+                      </labels>
+                      <control id="header_prioritycode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="prioritycode" disabled="false" />
+                    </cell>
+                    <cell id="{2c0bb052-90ee-e0b5-07c4-b93030c5c49d}" showlabel="true" locklevel="0" availableforphone="true">
+                      <labels>
+                        <label description="Due" languagecode="1033" />
+                      </labels>
+                      <control id="header_scheduledend" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="scheduledend" disabled="false" />
+                    </cell>
+                    <cell id="{4b96ccb7-2406-b2c9-01c2-e36eca46dd95}" showlabel="true" locklevel="1" availableforphone="true">
+                      <labels>
+                        <label description="Activity Status" languagecode="1033" />
+                      </labels>
+                      <control id="header_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="true" />
+                    </cell>
+                    <cell id="{95798e23-a0ee-0352-ae5b-52ab0662bd71}" showlabel="true" locklevel="1" availableforphone="true">
+                      <labels>
+                        <label description="Owner" languagecode="1033" />
+                      </labels>
+                      <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false">
+                        <parameters>
+                          <AutoResolve>true</AutoResolve>
+                          <DisableMru>false</DisableMru>
+                        </parameters>
+                      </control>
+                    </cell>
+                  </row>
+                </rows>
+              </header>
+              <DisplayConditions FallbackForm="true" Order="3">
+                <Everyone />
+              </DisplayConditions>
+              <Navigation>
+                <NavBar></NavBar>
+                <NavBarAreas>
+                  <NavBarArea Id="Info">
+                    <Titles>
+                      <Title LCID="1033" Text="Common" />
+                      <Title LCID="1025" Text="عام" />
+                      <Title LCID="1026" Text="Общо" />
+                      <Title LCID="1027" Text="Comú" />
+                      <Title LCID="1029" Text="Společné" />
+                      <Title LCID="1030" Text="Almindelig" />
+                      <Title LCID="1031" Text="Gemeinsam verwendet" />
+                      <Title LCID="1032" Text="Κοινή" />
+                      <Title LCID="3082" Text="Común" />
+                      <Title LCID="1061" Text="Ühine" />
+                      <Title LCID="1069" Text="Ohikoak" />
+                      <Title LCID="1035" Text="Yhteiset" />
+                      <Title LCID="1036" Text="Éléments communs" />
+                      <Title LCID="1110" Text="Común" />
+                      <Title LCID="1037" Text="פריטים נפוצים‬" />
+                      <Title LCID="1081" Text="सामान्य" />
+                      <Title LCID="1050" Text="Uobičajeno" />
+                      <Title LCID="1038" Text="Általános" />
+                      <Title LCID="1057" Text="Umum" />
+                      <Title LCID="1040" Text="Elementi comuni" />
+                      <Title LCID="1041" Text="共通" />
+                      <Title LCID="1087" Text="Жалпы" />
+                      <Title LCID="1042" Text="일반" />
+                      <Title LCID="1063" Text="Bendra" />
+                      <Title LCID="1062" Text="Vispārīgi" />
+                      <Title LCID="1086" Text="Umum" />
+                      <Title LCID="1044" Text="Felles" />
+                      <Title LCID="1043" Text="Algemeen" />
+                      <Title LCID="1045" Text="Wspólne" />
+                      <Title LCID="1046" Text="Comum" />
+                      <Title LCID="2070" Text="Comuns" />
+                      <Title LCID="1048" Text="Comun" />
+                      <Title LCID="1049" Text="Общее" />
+                      <Title LCID="1051" Text="Spoločné" />
+                      <Title LCID="1060" Text="Splošno" />
+                      <Title LCID="10266" Text="Уобичајено" />
+                      <Title LCID="9242" Text="Uobičajeno" />
+                      <Title LCID="1053" Text="Standard" />
+                      <Title LCID="1054" Text="ทั่วไป" />
+                      <Title LCID="1055" Text="Ortak" />
+                      <Title LCID="1058" Text="Спільні" />
+                      <Title LCID="1066" Text="Thông thường" />
+                      <Title LCID="2052" Text="通用" />
+                      <Title LCID="3076" Text="一般" />
+                      <Title LCID="1028" Text="一般" />
+                    </Titles>
+                  </NavBarArea>
+                  <NavBarArea Id="Sales">
+                    <Titles>
+                      <Title LCID="1033" Text="Sales" />
+                      <Title LCID="1025" Text="مبيعات" />
+                      <Title LCID="1026" Text="Продажби" />
+                      <Title LCID="1027" Text="Vendes" />
+                      <Title LCID="1029" Text="Prodej" />
+                      <Title LCID="1030" Text="Salg" />
+                      <Title LCID="1031" Text="Vertrieb" />
+                      <Title LCID="1032" Text="Πωλήσεις" />
+                      <Title LCID="3082" Text="Ventas" />
+                      <Title LCID="1061" Text="Müük" />
+                      <Title LCID="1069" Text="Salmentak" />
+                      <Title LCID="1035" Text="Myynti" />
+                      <Title LCID="1036" Text="Ventes" />
+                      <Title LCID="1110" Text="Vendas" />
+                      <Title LCID="1037" Text="מכירות" />
+                      <Title LCID="1081" Text="विक्रय" />
+                      <Title LCID="1050" Text="Prodaja" />
+                      <Title LCID="1038" Text="Értékesítés" />
+                      <Title LCID="1057" Text="Penjualan" />
+                      <Title LCID="1040" Text="Vendite" />
+                      <Title LCID="1041" Text="営業" />
+                      <Title LCID="1087" Text="Сатылым" />
+                      <Title LCID="1042" Text="영업" />
+                      <Title LCID="1063" Text="Pardavimas" />
+                      <Title LCID="1062" Text="Pārdošana" />
+                      <Title LCID="1086" Text="Jualan" />
+                      <Title LCID="1044" Text="Salg" />
+                      <Title LCID="1043" Text="Verkoop" />
+                      <Title LCID="1045" Text="Sprzedaż" />
+                      <Title LCID="1046" Text="Vendas" />
+                      <Title LCID="2070" Text="Vendas" />
+                      <Title LCID="1048" Text="Vânzări" />
+                      <Title LCID="1049" Text="Продажи" />
+                      <Title LCID="1051" Text="Predaj" />
+                      <Title LCID="1060" Text="Prodaja" />
+                      <Title LCID="10266" Text="Продаја" />
+                      <Title LCID="9242" Text="Prodaja" />
+                      <Title LCID="1053" Text="Försäljning" />
+                      <Title LCID="1054" Text="การขาย" />
+                      <Title LCID="1055" Text="Satış" />
+                      <Title LCID="1058" Text="Збут" />
+                      <Title LCID="1066" Text="Bán hàng" />
+                      <Title LCID="2052" Text="销售" />
+                      <Title LCID="3076" Text="銷售" />
+                      <Title LCID="1028" Text="銷售" />
+                    </Titles>
+                  </NavBarArea>
+                  <NavBarArea Id="Service">
+                    <Titles>
+                      <Title LCID="1033" Text="Service" />
+                      <Title LCID="1025" Text="خدمة" />
+                      <Title LCID="1026" Text="Услуга" />
+                      <Title LCID="1027" Text="Servei" />
+                      <Title LCID="1029" Text="Služby" />
+                      <Title LCID="1030" Text="Service" />
+                      <Title LCID="1031" Text="Service" />
+                      <Title LCID="1032" Text="Εξυπηρέτηση" />
+                      <Title LCID="3082" Text="Servicio" />
+                      <Title LCID="1061" Text="Teenindus" />
+                      <Title LCID="1069" Text="Zerbitzua" />
+                      <Title LCID="1035" Text="Palvelu" />
+                      <Title LCID="1036" Text="Service" />
+                      <Title LCID="1110" Text="Servizo" />
+                      <Title LCID="1037" Text="שירות" />
+                      <Title LCID="1081" Text="सेवा" />
+                      <Title LCID="1050" Text="Usluga" />
+                      <Title LCID="1038" Text="Szolgáltatás" />
+                      <Title LCID="1057" Text="Layanan" />
+                      <Title LCID="1040" Text="Servizio" />
+                      <Title LCID="1041" Text="サービス" />
+                      <Title LCID="1087" Text="Қызмет" />
+                      <Title LCID="1042" Text="서비스" />
+                      <Title LCID="1063" Text="Aptarnavimas" />
+                      <Title LCID="1062" Text="Serviss" />
+                      <Title LCID="1086" Text="Perkhidmatan" />
+                      <Title LCID="1044" Text="Service" />
+                      <Title LCID="1043" Text="Service" />
+                      <Title LCID="1045" Text="Usługa" />
+                      <Title LCID="1046" Text="Serviço" />
+                      <Title LCID="2070" Text="Serviço" />
+                      <Title LCID="1048" Text="Serviciu" />
+                      <Title LCID="1049" Text="Сервис" />
+                      <Title LCID="1051" Text="Služba" />
+                      <Title LCID="1060" Text="Storitev" />
+                      <Title LCID="10266" Text="Услуга" />
+                      <Title LCID="9242" Text="Usluga" />
+                      <Title LCID="1053" Text="Tjänst" />
+                      <Title LCID="1054" Text="การบริการ" />
+                      <Title LCID="1055" Text="Servis" />
+                      <Title LCID="1058" Text="Обслуговування" />
+                      <Title LCID="1066" Text="Dịch vụ" />
+                      <Title LCID="2052" Text="服务" />
+                      <Title LCID="3076" Text="服務" />
+                      <Title LCID="1028" Text="服務" />
+                    </Titles>
+                  </NavBarArea>
+                  <NavBarArea Id="Marketing">
+                    <Titles>
+                      <Title LCID="1033" Text="Marketing" />
+                      <Title LCID="1025" Text="التسويق" />
+                      <Title LCID="1026" Text="Маркетинг" />
+                      <Title LCID="1027" Text="Màrqueting" />
+                      <Title LCID="1029" Text="Marketing" />
+                      <Title LCID="1030" Text="Marketing" />
+                      <Title LCID="1031" Text="Marketing" />
+                      <Title LCID="1032" Text="Μάρκετινγκ" />
+                      <Title LCID="3082" Text="Marketing" />
+                      <Title LCID="1061" Text="Turundus" />
+                      <Title LCID="1069" Text="Marketina" />
+                      <Title LCID="1035" Text="Markkinointi" />
+                      <Title LCID="1036" Text="Marketing" />
+                      <Title LCID="1110" Text="Márketing" />
+                      <Title LCID="1037" Text="שיווק" />
+                      <Title LCID="1081" Text="मार्केटिंग" />
+                      <Title LCID="1050" Text="Marketing" />
+                      <Title LCID="1038" Text="Marketing" />
+                      <Title LCID="1057" Text="Pemasaran" />
+                      <Title LCID="1040" Text="Marketing" />
+                      <Title LCID="1041" Text="マーケティング" />
+                      <Title LCID="1087" Text="Маркетинг" />
+                      <Title LCID="1042" Text="마케팅" />
+                      <Title LCID="1063" Text="Rinkodara" />
+                      <Title LCID="1062" Text="Mārketings" />
+                      <Title LCID="1086" Text="Pemasaran" />
+                      <Title LCID="1044" Text="Markedsføring" />
+                      <Title LCID="1043" Text="Marketing" />
+                      <Title LCID="1045" Text="Marketing" />
+                      <Title LCID="1046" Text="Marketing" />
+                      <Title LCID="2070" Text="Marketing" />
+                      <Title LCID="1048" Text="Marketing" />
+                      <Title LCID="1049" Text="Маркетинг" />
+                      <Title LCID="1051" Text="Marketing" />
+                      <Title LCID="1060" Text="Trženje" />
+                      <Title LCID="10266" Text="Маркетинг" />
+                      <Title LCID="9242" Text="Marketing" />
+                      <Title LCID="1053" Text="Marknadsföring" />
+                      <Title LCID="1054" Text="การตลาด" />
+                      <Title LCID="1055" Text="Pazarlama" />
+                      <Title LCID="1058" Text="Маркетинг" />
+                      <Title LCID="1066" Text="Tiếp thị" />
+                      <Title LCID="2052" Text="市场营销" />
+                      <Title LCID="3076" Text="行銷" />
+                      <Title LCID="1028" Text="行銷" />
+                    </Titles>
+                  </NavBarArea>
+                  <NavBarArea Id="ProcessCenter">
+                    <Titles>
+                      <Title LCID="1033" Text="Process Sessions" />
+                      <Title LCID="1025" Text="جلسات عمل العمليات" />
+                      <Title LCID="1026" Text="Сесии на процес" />
+                      <Title LCID="1027" Text="Sessions del procés" />
+                      <Title LCID="1029" Text="Relace procesů" />
+                      <Title LCID="1030" Text="Processessioner" />
+                      <Title LCID="1031" Text="Prozesssitzungen" />
+                      <Title LCID="1032" Text="Περίοδοι λειτουργίας διεργασίας" />
+                      <Title LCID="3082" Text="Sesiones de proceso" />
+                      <Title LCID="1061" Text="Protsessiseansid" />
+                      <Title LCID="1069" Text="Prozesu-saioak" />
+                      <Title LCID="1035" Text="Prosessin istunnot" />
+                      <Title LCID="1036" Text="Sessions de traitement" />
+                      <Title LCID="1110" Text="Sesións de proceso" />
+                      <Title LCID="1037" Text="הפעלות תהליך" />
+                      <Title LCID="1081" Text="प्रक्रिया सत्र" />
+                      <Title LCID="1050" Text="Sesije procesa" />
+                      <Title LCID="1038" Text="Feldolgozási munkamenetek" />
+                      <Title LCID="1057" Text="Sesi Proses" />
+                      <Title LCID="1040" Text="Sessioni processo" />
+                      <Title LCID="1041" Text="プロセス セッション" />
+                      <Title LCID="1087" Text="Процестік сеанстар" />
+                      <Title LCID="1042" Text="프로세스 세션" />
+                      <Title LCID="1063" Text="Procesų seansai" />
+                      <Title LCID="1062" Text="Apstrādes sesijas" />
+                      <Title LCID="1086" Text="Sesi Proses" />
+                      <Title LCID="1044" Text="Prosessøkter" />
+                      <Title LCID="1043" Text="Processessies" />
+                      <Title LCID="1045" Text="Sesje procesów" />
+                      <Title LCID="1046" Text="Sessões de Processo" />
+                      <Title LCID="2070" Text="Sessões de Processo" />
+                      <Title LCID="1048" Text="Sesiuni de proces" />
+                      <Title LCID="1049" Text="Сеансы процессов" />
+                      <Title LCID="1051" Text="Relácie procesov" />
+                      <Title LCID="1060" Text="Seje procesa" />
+                      <Title LCID="10266" Text="Сесије процеса" />
+                      <Title LCID="9242" Text="Sesije procesa" />
+                      <Title LCID="1053" Text="Bearbeta sessioner" />
+                      <Title LCID="1054" Text="เซสชันของกระบวนการ" />
+                      <Title LCID="1055" Text="İşlem Oturumları" />
+                      <Title LCID="1058" Text="Сеанси обробки" />
+                      <Title LCID="1066" Text="Phiên quá trình" />
+                      <Title LCID="2052" Text="流程会话" />
+                      <Title LCID="3076" Text="程序工作階段" />
+                      <Title LCID="1028" Text="程序工作階段" />
+                    </Titles>
+                  </NavBarArea>
+                </NavBarAreas>
+              </Navigation>
+              <events>
+                <event name="onload" application="true" active="true">
+                  <InternalHandlers>
+                    <Handler functionName="Activities.Task.Form_onload" libraryName="Activities/SystemLibraries/Task_main_system_library.js" handlerUniqueId="516bea27-d455-43f4-968f-1e372977fc93" enabled="true" parameters="" passExecutionContext="true" />
+                  </InternalHandlers>
+                </event>
+              </events>
+              <clientresources>
+                <internalresources>
+                  <clientincludes>
+                    <internaljscriptfile src="$webresource:Activities/SystemLibraries/Task_main_system_library.js" />
+                  </clientincludes>
+                </internalresources>
+              </clientresources>
+            </form>
+            <LocalizedNames>
+              <LocalizedName description="Task for Interactive experience" languagecode="1033" />
+            </LocalizedNames>
+            <Descriptions>
+              <Description description="Default Interactive experience Task form." languagecode="1033" />
+            </Descriptions>
+          </systemform>
+          <systemform>
+            <formid>{16654191-19ad-48ca-9e46-c4b4fbdad76f}</formid>
+            <IntroducedVersion>6.0.0.0</IntroducedVersion>
+            <FormPresentation>1</FormPresentation>
+            <FormActivationState>1</FormActivationState>
+            <form headerdensity="HighWithControls">
+              <ancestor id="{16654191-19AD-48CA-9E46-C4B4FBDAD76F}" />
+              <hiddencontrols>
+                <data id="modifiedby" datafieldname="modifiedby" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
+              </hiddencontrols>
+              <tabs>
+                <tab name="TASK_TAB" verticallayout="true" id="{ADFD103B-691E-4A92-B4CF-F844B645A1F7}" IsUserDefined="0" showlabel="false" expanded="true">
+                  <labels>
+                    <label description="TASK-BAR" languagecode="1033" />
+                  </labels>
+                  <columns>
+                    <column width="100%">
+                      <sections>
+                        <section name="Project" showlabel="true" showbar="false" id="{EBB3C46D-5E9B-4EBB-A9E4-B8C25D364BB3}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Left">
+                          <labels>
+                            <label description="Choose Project" languagecode="1033" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{96cdadd2-0a64-4886-8fe7-89cb6345fa2b}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Project" languagecode="1033" />
+                                </labels>
+                                <control id="cr97b_project" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr97b_project" disabled="false" />
+                              </cell>
+                            </row>
+                            <row>
+                              <cell showlabel="false" locklevel="0" id="{d492f046-eb70-491f-9a25-f72c10d55bd3}">
+                                <labels>
+                                  <label description="New QV control 1581011548488" languagecode="1033" />
+                                </labels>
+                                <control id="QuickviewControl1581011548488" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="cr97b_project" disabled="false">
+                                  <parameters>
+                                    <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                                    <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="cr97b_project"&gt;25d0276a-8dc2-407b-b6cc-7ea85c67c0ed&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                                  </parameters>
+                                </control>
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                        <section name="Task" showlabel="true" showbar="false" locklevel="0" id="{bde07399-10a4-ddc1-ae5c-39b7ac6a0d7c}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" height="auto" labelid="{3e311b53-86ab-4733-ac24-54eba6327ebd}">
+                          <labels>
+                            <label description="Task" languagecode="1033" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{5FD2BE87-C1CF-41A6-9AD9-4D273733422E}" showlabel="true" locklevel="0" colspan="1" labelid="{f670bd68-6ea9-4665-b504-834f4c254a07}">
+                                <labels>
+                                  <label description="Subject" languagecode="1033" />
+                                </labels>
+                                <control id="subject" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="subject" disabled="false" />
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{34941c93-b671-08a7-5b39-5d4e1443b6e0}" showlabel="true" locklevel="0" auto="true" rowspan="5">
+                                <labels>
+                                  <label description="Description" languagecode="1033" />
+                                </labels>
+                                <control id="description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="description" disabled="false" />
+                              </cell>
+                            </row>
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row>
+                              <cell id="{72659c11-1738-400d-8c83-15e540fd8645}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Start Date" languagecode="1033" />
+                                </labels>
+                                <control id="scheduledstart" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="scheduledstart" disabled="false" />
+                              </cell>
+                            </row>
+                            <row>
+                              <cell showlabel="true" id="{CC840E7F-65AB-4F53-B495-4AEA458370B0}" labelid="{a7a7baec-6af8-4ab9-8952-8f009923ee1d}">
+                                <labels>
+                                  <label description="Duration" languagecode="1033" />
+                                </labels>
+                                <control id="actualdurationminutes" classid="{AA987274-CE4E-4271-A803-66164311A958}" datafieldname="actualdurationminutes" disabled="false" />
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                  </columns>
+                </tab>
+              </tabs>
+              <header id="{D7EF0A4A-7B76-4B39-A2E0-4207EC3C8C2D}" columns="1111" celllabelposition="Top" labelwidth="115">
+                <rows>
+                  <row>
+                    <cell id="{0A9B5273-AD20-4A08-8990-64CB20861D81}" showlabel="true">
+                      <labels>
+                        <label description="Priority" languagecode="1033" />
+                      </labels>
+                      <control id="header_priority" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="prioritycode" />
+                    </cell>
+                    <cell showlabel="true" locklevel="0" rowspan="1" colspan="1" id="{E3CC7544-665F-4BDC-874C-FD933C7C05ED}">
+                      <labels>
+                        <label description="Due" languagecode="1033" />
+                      </labels>
+                      <control id="header_scheduledend" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="scheduledend" disabled="false" />
+                    </cell>
+                    <cell id="{6A04844E-9375-4428-BF70-85C6C3556B8B}">
+                      <labels>
+                        <label description="Activity Status" languagecode="1033" />
+                      </labels>
+                      <control id="header_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="true" />
+                    </cell>
+                    <cell id="{59BF22C1-8C1D-4235-8516-4647EDEAE36C}" showlabel="true" locklevel="1">
+                      <labels>
+                        <label description="Owner" languagecode="1033" />
+                      </labels>
+                      <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                    </cell>
+                  </row>
+                </rows>
+              </header>
+              <DisplayConditions FallbackForm="true" Order="1">
+                <Everyone />
+              </DisplayConditions>
+              <events>
+                <event name="onload" application="true" active="true">
+                  <InternalHandlers>
+                    <Handler functionName="Activities.Task.Form_onload" libraryName="Activities/SystemLibraries/Task_main_system_library.js" handlerUniqueId="516bea27-d455-43f4-968f-1e372977fc93" enabled="true" parameters="" passExecutionContext="true" />
+                  </InternalHandlers>
+                </event>
+              </events>
+              <clientresources>
+                <internalresources>
+                  <clientincludes>
+                    <internaljscriptfile src="$webresource:Activities/SystemLibraries/Task_main_system_library.js" />
+                  </clientincludes>
+                </internalresources>
+              </clientresources>
+              <footer id="{cd1602b6-b55f-46f6-9850-e157ba36d251}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+                <rows>
+                  <row>
+                    <cell id="{d771bb38-a302-4572-a01d-8318a861dba5}" showlabel="false">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                    </cell>
+                    <cell id="{a83ff590-fd59-4d0a-bbb2-3c7458f46e51}" showlabel="false">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                    </cell>
+                    <cell id="{ad6e4027-b504-47d7-bc7a-fb39ced6b02d}" showlabel="false">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                    </cell>
+                  </row>
+                </rows>
+              </footer>
+              <controlDescriptions />
+            </form>
+            <LocalizedNames>
+              <LocalizedName description="Task" languagecode="1033" />
+            </LocalizedNames>
+            <Descriptions>
+              <Description description="Updated default Task form." languagecode="1033" />
+            </Descriptions>
+          </systemform>
+        </forms>
+        <forms type="quickCreate">
+          <systemform unmodified="1">
+            <formid>{a1c8a6dc-8804-4019-9c78-7dbe86560ea1}</formid>
+            <IntroducedVersion>9.0.0.0</IntroducedVersion>
+            <FormPresentation>1</FormPresentation>
+            <FormActivationState>1</FormActivationState>
+            <form shownavigationbar="false" hasmargin="false">
+              <ancestor id="{1fac7e2e-0b1c-4b6c-ab92-8af0f92dbdbc}" />
+              <hiddencontrols>
+                <data id="modifiedby" datafieldname="modifiedby" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
+              </hiddencontrols>
+              <tabs>
+                <tab name="createtask" verticallayout="true" id="{C0134778-AB51-40B0-BE85-CD3F1163DC66}" IsUserDefined="0" locklevel="0" expanded="true" showlabel="false">
+                  <labels>
+                    <label description="Create Task" languagecode="1033" />
+                  </labels>
+                  <columns>
+                    <column width="33%">
+                      <sections>
+                        <section name="task" showlabel="false" showbar="false" locklevel="0" id="{9F244862-47BB-4FD7-8740-FFABA14E607A}" IsUserDefined="0" layout="varheight" labelwidth="115" celllabelposition="Left">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{f3d6698a-924b-45ca-8304-ae0247b3c3f9}">
+                                <labels>
+                                  <label description="Owner" languagecode="1033" />
+                                </labels>
+                                <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{8AE5310B-53DF-47F1-B2B9-56F10F2F067E}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Subject" languagecode="1033" />
+                                </labels>
+                                <control id="subject" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="subject" disabled="false" />
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{F6078AC5-21F9-44C2-A8EF-BC6F173AB541}" showlabel="true" locklevel="4">
+                                <labels>
+                                  <label description="Description" languagecode="1033" />
+                                </labels>
+                                <control id="description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="description" disabled="false" />
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                    <column width="33%">
+                      <sections>
+                        <section name="task_2" showlabel="false" showbar="false" locklevel="0" id="{9F244862-47BB-4FD7-8740-FFABA14E608A}" IsUserDefined="0" layout="varheight" labelwidth="115" celllabelposition="Left">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{D2F8E46F-02CB-4EBB-B9B7-5235C075D67C}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Due" languagecode="1033" />
+                                </labels>
+                                <control id="scheduledend" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="scheduledend" disabled="false" />
+                              </cell>
+                            </row>
+                            <row>
+                              <cell auto="false" showlabel="true" locklevel="0" rowspan="1" id="{3AC8F567-C41C-402F-8ECF-DD4F72C85ECB}">
+                                <labels>
+                                  <label description="Regarding" languagecode="1033" />
+                                </labels>
+                                <control id="regardingobjectid" classid="{F3015350-44A2-4aa0-97B5-00166532B5E9}" datafieldname="regardingobjectid" disabled="false">
+                                  <parameters>
+                                    <AutoResolve>true</AutoResolve>
+                                  </parameters>
+                                </control>
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                    <column width="33%">
+                      <sections>
+                        <section name="task_3" showlabel="false" showbar="false" locklevel="0" id="{9F244862-47BB-4FD7-8740-FFABA14E609A}" IsUserDefined="0" layout="varheight" labelwidth="115" celllabelposition="Left">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell showlabel="true" id="{0d010380-cc98-4803-bb2e-67c6954dc9a6}">
+                                <labels>
+                                  <label description="Duration" languagecode="1033" />
+                                </labels>
+                                <control id="actualdurationminutes" classid="{AA987274-CE4E-4271-A803-66164311A958}" datafieldname="actualdurationminutes" disabled="false" />
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{B2DD0089-4428-48EB-BA64-D7ABC66B1E14}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Priority" languagecode="1033" />
+                                </labels>
+                                <control id="prioritycode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="prioritycode" disabled="false" />
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                  </columns>
+                </tab>
+              </tabs>
+              <DisplayConditions FallbackForm="true" Order="2">
+                <Everyone />
+              </DisplayConditions>
+              <events>
+                <event name="onload" application="true" active="true">
+                  <InternalHandlers>
+                    <Handler functionName="Activities.Task.Form_onload" libraryName="Activities/SystemLibraries/Task_main_system_library.js" handlerUniqueId="8c67102c-53fc-45fb-ae2a-bcc92f7c05f1" enabled="true" parameters="" passExecutionContext="true" />
+                  </InternalHandlers>
+                </event>
+              </events>
+              <clientresources>
+                <internalresources>
+                  <clientincludes>
+                    <internaljscriptfile src="$webresource:Activities/SystemLibraries/Task_main_system_library.js" />
+                  </clientincludes>
+                </internalresources>
+              </clientresources>
+            </form>
+            <LocalizedNames>
+              <LocalizedName description="Task quick create form." languagecode="1033" />
+            </LocalizedNames>
+            <Descriptions>
+              <Description description="Task quick create form." languagecode="1033" />
+            </Descriptions>
+          </systemform>
+        </forms>
+        <forms type="quick">
+          <systemform unmodified="1">
+            <formid>{81a89014-442c-44ad-9725-4077426a7fee}</formid>
+            <IntroducedVersion>8.0.0.0</IntroducedVersion>
+            <FormPresentation>0</FormPresentation>
+            <FormActivationState>1</FormActivationState>
+            <form>
+              <tabs>
+                <tab id="{153cb31e-465b-4622-991b-f815888ac6cc}" name="tab_1" showlabel="false">
+                  <labels>
+                    <label description="" languagecode="1033" />
+                  </labels>
+                  <columns>
+                    <column width="100%">
+                      <sections>
+                        <section id="{746f0c87-ed94-4832-bd86-2f64ee22f7a7}" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0">
+                          <labels>
+                            <label description="TASK DETAILS" languagecode="1033" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{0bb7c98b-6483-9717-aa65-e457b4644edd}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Subject" languagecode="1033" />
+                                </labels>
+                                <control id="subject" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="subject" disabled="false" />
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{c83c29de-e51e-2003-bb6a-55728327445c}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Due Date" languagecode="1033" />
+                                </labels>
+                                <control id="scheduledend" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="scheduledend" disabled="false" />
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{556a6b8e-bc90-ab3e-2e00-57a042bea911}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Regarding" languagecode="1033" />
+                                </labels>
+                                <control id="regardingobjectid" classid="{F3015350-44A2-4aa0-97B5-00166532B5E9}" datafieldname="regardingobjectid" disabled="false" />
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{e59b9eec-9e5b-5695-b805-debc0d03cc26}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Priority" languagecode="1033" />
+                                </labels>
+                                <control id="prioritycode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="prioritycode" disabled="false" />
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{c2a71bb1-88a9-ad08-7595-e1373d537e5a}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Activity Status" languagecode="1033" />
+                                </labels>
+                                <control id="statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                        <section name="tab_1_section_2" showlabel="true" showbar="false" locklevel="0" id="{66b8540b-09ea-42db-9463-ae37d7ec0e1b}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                          <labels>
+                            <label description="DESCRIPTION" languagecode="1033" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{166dd975-45ac-c46d-2444-64a6686579d0}" showlabel="false" locklevel="0" rowspan="4">
+                                <labels>
+                                  <label description="Description" languagecode="1033" />
+                                </labels>
+                                <control id="description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="description" disabled="false" />
+                              </cell>
+                            </row>
+                            <row />
+                            <row />
+                            <row />
+                          </rows>
+                        </section>
+                        <section name="tab_1_section_3" showlabel="true" showbar="false" locklevel="0" id="{d25390c6-98d5-b4dd-e0e5-55ca3c02507e}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                          <labels>
+                            <label description="OTHER DETAILS" languagecode="1033" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{92c84583-9512-8594-1510-01855b81c867}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Duration" languagecode="1033" />
+                                </labels>
+                                <control id="actualdurationminutes" classid="{AA987274-CE4E-4271-A803-66164311A958}" datafieldname="actualdurationminutes" disabled="false" />
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{0ce40200-b8c9-84db-c238-631ea16d9259}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Owner" languagecode="1033" />
+                                </labels>
+                                <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                  </columns>
+                </tab>
+              </tabs>
+              <DisplayConditions Order="1">
+                <Everyone />
+              </DisplayConditions>
+            </form>
+            <LocalizedNames>
+              <LocalizedName description="Task Reference Panel" languagecode="1033" />
+            </LocalizedNames>
+            <Descriptions>
+              <Description description="A form that displays Reference Panel of Task." languagecode="1033" />
+            </Descriptions>
+          </systemform>
+          <systemform unmodified="1">
+            <formid>{1fac7e2e-0b1c-4b6c-ab92-8af0f92dbdbc}</formid>
+            <IntroducedVersion>5.0.0.0</IntroducedVersion>
+            <FormPresentation>0</FormPresentation>
+            <FormActivationState>1</FormActivationState>
+            <form shownavigationbar="false" hasmargin="false">
+              <ancestor id="{1fac7e2e-0b1c-4b6c-ab92-8af0f92dbdbc}" />
+              <hiddencontrols>
+                <data id="modifiedby" datafieldname="modifiedby" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
+              </hiddencontrols>
+              <tabs>
+                <tab name="general" verticallayout="true" id="{4CA63CF4-212D-4748-8561-4927E9BEFEB4}" IsUserDefined="0" locklevel="0" expanded="true" showlabel="false">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <columns>
+                    <column width="100%">
+                      <sections>
+                        <section name="information" showlabel="false" showbar="false" locklevel="0" id="{C473270F-335F-476E-8E1D-F20D9B2382CC}" IsUserDefined="0" layout="varheight" labelwidth="115" celllabelposition="Left">
+                          <labels>
+                            <label description="Information" languagecode="1033" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{A9F7F1D8-F5D9-4623-B0B2-5DA8B744E483}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Subject" languagecode="1033" />
+                                </labels>
+                                <control id="subject" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="subject" disabled="false" />
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{9882AF1A-596B-44A7-A629-EEE7C0FAFF55}" showlabel="true" locklevel="4" rowspan="3">
+                                <labels>
+                                  <label description="Description" languagecode="1033" />
+                                </labels>
+                                <control id="description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="description" disabled="false" />
+                              </cell>
+                            </row>
+                            <row></row>
+                            <row />
+                            <row>
+                              <cell id="{60CC383E-DAF7-46EA-B86E-50C5CE3C8741}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Due" languagecode="1033" />
+                                </labels>
+                                <control id="scheduledend" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="scheduledend" disabled="false" />
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{C0EA964E-21DA-4A6C-A9C9-0B9934E60D3D}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Priority" languagecode="1033" />
+                                </labels>
+                                <control id="prioritycode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="prioritycode" disabled="false" />
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{05A1926C-28FB-4452-9C06-D2AB225B06C3}" auto="false" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Owner" languagecode="1033" />
+                                </labels>
+                                <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                  </columns>
+                </tab>
+              </tabs>
+            </form>
+            <LocalizedNames>
+              <LocalizedName description="Quick Form" languagecode="1033" />
+            </LocalizedNames>
+            <Descriptions>
+              <Description description="This is the form that is displayed for the Dynamics 365 quick form." languagecode="1033" />
+            </Descriptions>
+          </systemform>
+        </forms>
+      </FormXml>
+      <SavedQueries>
+        <savedqueries>
+          <savedquery>
+            <isquickfindquery>0</isquickfindquery>
+            <isprivate>0</isprivate>
+            <isdefault>1</isdefault>
+            <savedqueryid>{6cf285aa-eb20-4277-925a-3e9735411ff0}</savedqueryid>
+            <queryapi></queryapi>
+            <layoutxml>
+              <grid name="resultset" jump="subject" select="1" icon="1" preview="1">
+                <row name="result" id="activityid">
+                  <cell name="scheduledstart" width="150" />
+                  <cell name="subject" width="250" />
+                  <cell name="actualdurationminutes" width="150" />
+                  <cell name="description" width="150" />
+                </row>
+              </grid>
+            </layoutxml>
+            <querytype>0</querytype>
+            <fetchxml>
+              <fetch version="1.0" output-format="xml-platform" mapping="logical">
+                <entity name="task">
+                  <attribute name="subject" />
+                  <attribute name="activityid" />
+                  <attribute name="actualdurationminutes" />
+                  <attribute name="description" />
+                  <attribute name="scheduledstart" />
+                  <order attribute="subject" descending="false" />
+                  <filter type="and">
+                    <condition attribute="statecode" operator="in">
+                      <value>0</value>
+                      <value>1</value>
+                    </condition>
+                    <condition attribute="ownerid" operator="eq-userid" />
+                  </filter>
+                </entity>
+              </fetch>
+            </fetchxml>
+            <IntroducedVersion>5.0.0.0</IntroducedVersion>
+            <LocalizedNames>
+              <LocalizedName description="My Tasks" languagecode="1033" />
+            </LocalizedNames>
+          </savedquery>
+        </savedqueries>
+      </SavedQueries>
+      <RibbonDiffXml>
+        <CustomActions />
+        <Templates>
+          <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+        </Templates>
+        <CommandDefinitions />
+        <RuleDefinitions>
+          <TabDisplayRules />
+          <DisplayRules />
+          <EnableRules />
+        </RuleDefinitions>
+        <LocLabels />
+      </RibbonDiffXml>
+    </Entity>
+  </Entities>
+  <Roles></Roles>
+  <Workflows></Workflows>
+  <FieldSecurityProfiles></FieldSecurityProfiles>
+  <Templates />
+  <RibbonDiffXml>
+    <CustomActions />
+    <Templates>
+      <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+    </Templates>
+    <CommandDefinitions />
+    <RuleDefinitions>
+      <TabDisplayRules />
+      <DisplayRules />
+      <EnableRules />
+    </RuleDefinitions>
+    <LocLabels />
+  </RibbonDiffXml>
+  <EntityMaps />
+  <EntityRelationships>
+    <EntityRelationship Name="business_unit_cr97b_project">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IsCustomizable>1</IsCustomizable>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>cr97b_Project</ReferencingEntityName>
+      <ReferencedEntityName>BusinessUnit</ReferencedEntityName>
+      <CascadeAssign>NoCascade</CascadeAssign>
+      <CascadeDelete>NoCascade</CascadeDelete>
+      <CascadeReparent>NoCascade</CascadeReparent>
+      <CascadeShare>NoCascade</CascadeShare>
+      <CascadeUnshare>NoCascade</CascadeUnshare>
+      <ReferencingAttributeName>OwningBusinessUnit</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="Unique identifier for the business unit that owns the record" languagecode="1033" />
+        </Descriptions>
+      </RelationshipDescription>
+    </EntityRelationship>
+    <EntityRelationship Name="cr97b_Project_Contract_Contract">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IsCustomizable>1</IsCustomizable>
+      <IntroducedVersion>1.0.0.1</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>cr97b_Project</ReferencingEntityName>
+      <ReferencedEntityName>Contract</ReferencedEntityName>
+      <CascadeAssign>NoCascade</CascadeAssign>
+      <CascadeDelete>RemoveLink</CascadeDelete>
+      <CascadeReparent>NoCascade</CascadeReparent>
+      <CascadeShare>NoCascade</CascadeShare>
+      <CascadeUnshare>NoCascade</CascadeUnshare>
+      <CascadeRollupView>NoCascade</CascadeRollupView>
+      <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+      <ReferencingAttributeName>cr97b_Contract</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="" languagecode="1033" />
+        </Descriptions>
+      </RelationshipDescription>
+      <EntityRelationshipRoles>
+        <EntityRelationshipRole>
+          <NavPaneDisplayOption>UseCollectionName</NavPaneDisplayOption>
+          <NavPaneArea>Details</NavPaneArea>
+          <NavPaneOrder>10000</NavPaneOrder>
+          <NavigationPropertyName>cr97b_Contract</NavigationPropertyName>
+          <RelationshipRoleType>1</RelationshipRoleType>
+        </EntityRelationshipRole>
+        <EntityRelationshipRole>
+          <NavigationPropertyName>cr97b_Project_Contract_Contract</NavigationPropertyName>
+          <RelationshipRoleType>0</RelationshipRoleType>
+        </EntityRelationshipRole>
+      </EntityRelationshipRoles>
+    </EntityRelationship>
+    <EntityRelationship Name="cr97b_Project_cr97b_Project_Task">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IsCustomizable>1</IsCustomizable>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>Task</ReferencingEntityName>
+      <ReferencedEntityName>cr97b_Project</ReferencedEntityName>
+      <CascadeAssign>NoCascade</CascadeAssign>
+      <CascadeDelete>RemoveLink</CascadeDelete>
+      <CascadeReparent>NoCascade</CascadeReparent>
+      <CascadeShare>NoCascade</CascadeShare>
+      <CascadeUnshare>NoCascade</CascadeUnshare>
+      <CascadeRollupView>NoCascade</CascadeRollupView>
+      <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+      <ReferencingAttributeName>cr97b_Project</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="" languagecode="1033" />
+        </Descriptions>
+      </RelationshipDescription>
+      <EntityRelationshipRoles>
+        <EntityRelationshipRole>
+          <NavPaneDisplayOption>UseCollectionName</NavPaneDisplayOption>
+          <NavPaneArea>Details</NavPaneArea>
+          <NavPaneOrder>10000</NavPaneOrder>
+          <NavigationPropertyName>cr97b_Project_Task</NavigationPropertyName>
+          <RelationshipRoleType>1</RelationshipRoleType>
+        </EntityRelationshipRole>
+        <EntityRelationshipRole>
+          <NavigationPropertyName>cr97b_Project_cr97b_Project_Task</NavigationPropertyName>
+          <RelationshipRoleType>0</RelationshipRoleType>
+        </EntityRelationshipRole>
+      </EntityRelationshipRoles>
+    </EntityRelationship>
+    <EntityRelationship Name="lk_cr97b_project_createdby">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IsCustomizable>1</IsCustomizable>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>cr97b_Project</ReferencingEntityName>
+      <ReferencedEntityName>SystemUser</ReferencedEntityName>
+      <CascadeAssign>NoCascade</CascadeAssign>
+      <CascadeDelete>NoCascade</CascadeDelete>
+      <CascadeReparent>NoCascade</CascadeReparent>
+      <CascadeShare>NoCascade</CascadeShare>
+      <CascadeUnshare>NoCascade</CascadeUnshare>
+      <ReferencingAttributeName>CreatedBy</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="Unique identifier of the user who created the record." languagecode="1033" />
+        </Descriptions>
+      </RelationshipDescription>
+    </EntityRelationship>
+    <EntityRelationship Name="lk_cr97b_project_modifiedby">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IsCustomizable>1</IsCustomizable>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>cr97b_Project</ReferencingEntityName>
+      <ReferencedEntityName>SystemUser</ReferencedEntityName>
+      <CascadeAssign>NoCascade</CascadeAssign>
+      <CascadeDelete>NoCascade</CascadeDelete>
+      <CascadeReparent>NoCascade</CascadeReparent>
+      <CascadeShare>NoCascade</CascadeShare>
+      <CascadeUnshare>NoCascade</CascadeUnshare>
+      <ReferencingAttributeName>ModifiedBy</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="Unique identifier of the user who modified the record." languagecode="1033" />
+        </Descriptions>
+      </RelationshipDescription>
+    </EntityRelationship>
+    <EntityRelationship Name="msdyn_playbookinstance_Tasks">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IsCustomizable>1</IsCustomizable>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>Task</ReferencingEntityName>
+      <ReferencedEntityName>msdyn_playbookinstance</ReferencedEntityName>
+      <CascadeAssign>Cascade</CascadeAssign>
+      <CascadeDelete>Cascade</CascadeDelete>
+      <CascadeReparent>Cascade</CascadeReparent>
+      <CascadeShare>Cascade</CascadeShare>
+      <CascadeUnshare>Cascade</CascadeUnshare>
+      <ReferencingAttributeName>RegardingObjectId</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="Choose the record that the task relates to." languagecode="1033" />
+        </Descriptions>
+      </RelationshipDescription>
+    </EntityRelationship>
+    <EntityRelationship Name="msdyn_postalbum_Tasks">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IsCustomizable>1</IsCustomizable>
+      <IntroducedVersion>1.0.5.418</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>Task</ReferencingEntityName>
+      <ReferencedEntityName>msdyn_PostAlbum</ReferencedEntityName>
+      <CascadeAssign>Cascade</CascadeAssign>
+      <CascadeDelete>Cascade</CascadeDelete>
+      <CascadeReparent>Cascade</CascadeReparent>
+      <CascadeShare>Cascade</CascadeShare>
+      <CascadeUnshare>Cascade</CascadeUnshare>
+      <ReferencingAttributeName>RegardingObjectId</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="Choose the record that the task relates to." languagecode="1033" />
+        </Descriptions>
+      </RelationshipDescription>
+    </EntityRelationship>
+    <EntityRelationship Name="owner_cr97b_project">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IsCustomizable>1</IsCustomizable>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>cr97b_Project</ReferencingEntityName>
+      <ReferencedEntityName>Owner</ReferencedEntityName>
+      <CascadeAssign>NoCascade</CascadeAssign>
+      <CascadeDelete>NoCascade</CascadeDelete>
+      <CascadeReparent>NoCascade</CascadeReparent>
+      <CascadeShare>NoCascade</CascadeShare>
+      <CascadeUnshare>NoCascade</CascadeUnshare>
+      <ReferencingAttributeName>OwnerId</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="Owner Id" languagecode="1033" />
+        </Descriptions>
+      </RelationshipDescription>
+    </EntityRelationship>
+    <EntityRelationship Name="team_cr97b_project">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IsCustomizable>1</IsCustomizable>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>cr97b_Project</ReferencingEntityName>
+      <ReferencedEntityName>Team</ReferencedEntityName>
+      <CascadeAssign>NoCascade</CascadeAssign>
+      <CascadeDelete>NoCascade</CascadeDelete>
+      <CascadeReparent>NoCascade</CascadeReparent>
+      <CascadeShare>NoCascade</CascadeShare>
+      <CascadeUnshare>NoCascade</CascadeUnshare>
+      <ReferencingAttributeName>OwningTeam</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="Unique identifier for the team that owns the record." languagecode="1033" />
+        </Descriptions>
+      </RelationshipDescription>
+    </EntityRelationship>
+    <EntityRelationship Name="user_cr97b_project">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IsCustomizable>1</IsCustomizable>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>cr97b_Project</ReferencingEntityName>
+      <ReferencedEntityName>SystemUser</ReferencedEntityName>
+      <CascadeAssign>NoCascade</CascadeAssign>
+      <CascadeDelete>NoCascade</CascadeDelete>
+      <CascadeReparent>NoCascade</CascadeReparent>
+      <CascadeShare>NoCascade</CascadeShare>
+      <CascadeUnshare>NoCascade</CascadeUnshare>
+      <ReferencingAttributeName>OwningUser</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="Unique identifier for the user that owns the record." languagecode="1033" />
+        </Descriptions>
+      </RelationshipDescription>
+    </EntityRelationship>
+  </EntityRelationships>
+  <OrganizationSettings />
+  <optionsets />
+  <CustomControls />
+  <EntityDataProviders />
+  <Languages>
+    <Language>1033</Language>
+  </Languages>
+</ImportExportXml>
